@@ -6,10 +6,14 @@ export const links = [
     text: "Home",
     exact: true,
   },
+  // {
+  //   link: "/booking?index=1",
+  //   text: "Transfers",
+  //   exact: true,
+  // },
   {
-    link: "/booking?index=1",
-    text: "Transfers",
-    exact: true,
+    link: "/about-us",
+    text: "About Us",
   },
   {
     link: "/local",
@@ -20,34 +24,35 @@ export const links = [
     link: "/services",
     text: "Services",
   },
+  // {
+  //   link: "/our-fleet",
+  //   text: "Our Fleet",
+  //   keyword: true,
+  // },
   {
-    link: "/our-fleet",
-    text: "Our Fleet",
-    keyword: true,
+    link: "/contact-us",
+    text: "Contact Us",
   },
-  {
-    link: "/about-us",
-    text: "About Us",
-  },
+ 
 ];
 
 // carousel array
 export const profile = [
   {
-    title: "Profile",
+    title: "PROFILE",
     img: "/banner-1.jpg",
-    text: "Select your favored vehicle, timetable, and objective effortlessly. Secure your booking on the web now for a consistent encounter.",
+    text: "Select your favored Bus, timetable, and objective effortlessly. Secure your booking on the web now for a consistent encounter.",
     icon: "paint-brush",
   },
   {
-    title: "Quotes",
-    text: "Your definitive decision for lavish or high-limit transport, whenever, anyplace in Melbourne.",
+    title: "QUOTES",
+    text: "Your definitive decision for high-limit transport, whenever, anyplace in UAE.",
     icon: "quote-left",
     img: "/banner-2.jpg",
   },
   {
-    title: "Inspiration",
-    text: "Find our spic and span Limolux vehicle administration, conveying unmatched class and accommodation.",
+    title: "INSPIRATION",
+    text: "Every stop a bus makes is a reminder that life offers us endless opportunities to pause, reflect, and embark on new adventures.",
     img: "/banner-3.jpg",
     icon: "lightbulb",
   },

@@ -32,13 +32,13 @@ const Carousels = () => {
               <div className="">
                 <Card className="bg-transparent border-none">
                   <CardContent className="flex items-center justify-center p-6">
-                    <div className="h-[40vh] md:h-[60vh] flex lg:justify-center items-center flex-col relative">
-                      <h3 className="mb-1 lg:mb-5 flex items-center gap-6 text-2xl lg:text-5xl">
-                        <span className="text-third-color font-bold transition-[3s]">
+                    <div className="h-[40vh] md:h-[60vh] flex lg:justify-center flex-col relative">
+                      <h3 className="mb-1 lg:mb-5 flex items-start gap-6 text-2xl lg:text-6xl">
+                        <span className="text-red-800 font-bold transition-[3s]">
                           {slide.title}
                         </span>
                       </h3>
-                      <p className="text-white text-sm md:text-4xl text-center w-10/12 md:w-8/12">
+                      <p className="text-white text-sm md:text-2xl text-start w-10/12 md:w-8/12">
                         <i className={"fad fa-" + slide.icon}></i>
                         <span>{slide.text}</span>
                       </p>

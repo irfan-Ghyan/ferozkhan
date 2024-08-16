@@ -16,7 +16,7 @@ const Header = () => {
         href="/"
         className="pl-5 md:pl-0"
       >
-        <Image src={logo} width={100} height={100} alt="lounge"  />
+        <Image src={logo} width={200} height={200} alt="lounge"  />
         </Link>
       <div
         className="md:hidden flex flex-col gap-1 pr-5"
@@ -35,7 +35,7 @@ const Header = () => {
           <div key={link.link}>
             <Link
               className={`${
-                pathname === link.link ? "text-red-700" : "text-gray-800"
+                pathname === link.link ? "text-red-700 text-xl" : "text-gray-800 text-xl"
               }`}
               href={link.link}
               exact={link.exact}
